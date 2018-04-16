@@ -1,0 +1,55 @@
+/* ===== Grig ===== */
+
+$gutter:                 16 !default;
+$columns:                12 !default;
+
+$screen-sizes: (
+  xs: 0,
+  sm: 557,
+  md: 768,
+  lg: 1232,
+) !default;
+
+/* ===== Typography ===== */
+
+$font-open-sans: 'Open Sans', sans-serif;
+
+$default-text-color:      #373a3c !default;
+
+$body-font-family:        $font-open-sans !default;
+$body-font-size:          16 !default;
+$body-line-height:        1.6 !default;
+$body-text-color:         $default-text-color;
+$body-background-color:   #f7f8fb !default;
+
+/* ===== Colors ===== */
+
+/* Base Colors */
+
+$white:                   #fff !default;
+$black:                   #000 !default;
+$red:                     #e6212d !default;
+$yellow:                  #ffae22 !default;
+$orange:                  #fd9727 !default;
+$blue:                    #5291ff !default;
+$green:                   #77c35d !default;
+$bright-green:            #00c853 !default;
+$pink:                    #D74961 !default;
+$purple:                  #5c7aff !default;
+
+/* Theme Colors */
+
+$primary:                 $purple !default;
+$secondary:               $blue !default;
+$default:                 #b4b7c6 !default;
+$success:                 $green !default;
+$error:                   $red !default;
+
+/* Gray Colors */
+
+$light-gray:              #fefefe !default;
+$medium-gray:             #BDB9BD !default;
+$dark-gray:               #333333 !default;
+
+/* ===== Content ===== */
+$content-height:           calc(100vh - 248px);

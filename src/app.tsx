@@ -5,6 +5,8 @@ import {Route, Router, Switch} from 'react-router'
 
 import {store, history} from 'app/store'
 
+import 'app/common/styles/base'
+
 
 class Content extends React.Component<{}, {}> {
 
@@ -13,7 +15,7 @@ class Content extends React.Component<{}, {}> {
             <Provider store={store}>
                 <Router history={history}>
                     <div>
-                        dfghdfgh
+                        Content
                     </div>
                 </Router>
             </Provider>
