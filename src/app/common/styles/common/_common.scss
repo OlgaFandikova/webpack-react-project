@@ -23,11 +23,6 @@ body {
   line-height: $body-line-height;
   color: $body-text-color;
   background-color: $body-background-color;
-  &.move, &:global(.react-draggable-transparent-selection) {
-    cursor: grab;
-    user-select: none;
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-  }
 }
 
 ul, ol {
@@ -59,6 +54,6 @@ a {
   }
 }
 
-input, textarea {
-  @include text-left;
+:focus {
+  outline: none;
 }
